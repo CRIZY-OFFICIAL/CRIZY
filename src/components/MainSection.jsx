@@ -43,7 +43,7 @@ function MainSection() {
       <div className="w-full h-[60px] bg-primary absolute bottom-0 select-none" data-aos="fade-up"
         data-aos-delay="300">
         <div className="relative flex items-center h-full text-[12px] md:text-[14px] pl-3 md:pl-5 overflow-hidden">
-          <div className="flex text-white text-[9px] font-delius-regular flex-wrap md:flex-nowrap">
+          <div className="flex text-white text-[9px] md:text-[12px] font-delius-regular flex-wrap md:flex-nowrap">
             <p>CRIZY - VISUAL // BEATS // STREET-STYLE</p> <pre> </pre>
             <p className="text-secondary">Artist</p> <pre> </pre>
             <p>•</p>
@@ -51,7 +51,7 @@ function MainSection() {
             <p>•</p>
             <p className="ml-1 text-secondary">Designer</p>
           </div>
-          <div className="absolute hidden md:flex bg-secondary right-0 w-[calc(50%-100px)] md:w-[calc(50%-100px)] h-[20px] rounded-bl-[30px] rounded-tl-[30px]"></div>
+          <div className="absolute hidden md:flex bg-secondary right-0 w-[calc(50%-100px)] md:w-[calc(50%-100px)] h-[20px] md:h-full rounded-bl-[30px] rounded-tl-[30px]"></div>
         </div>
       </div>
     </>
