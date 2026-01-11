@@ -17,9 +17,9 @@ function ContactSection() {
     setBtnText("Sending...");
 
     // Replace these with your actual IDs from EmailJS dashboard
-    const serviceID = "NSm1tD-oIeArwJty4";
+    const serviceID = "service_6vcnbg9";
     const templateID = "template_wkcftrt";
-    const publicKey = "cc5Kn79tDvhcgsibk";
+    const publicKey = "NSm1tD-oIeArwJty4";
 
     emailjs
       .sendForm(serviceID, templateID, form.current, publicKey)
