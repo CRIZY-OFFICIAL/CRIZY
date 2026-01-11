@@ -65,7 +65,7 @@ function ContactSection() {
 
             <div className="flex items-center justify-center gap-2 text-zinc-500 text-[14px] md:text-base">
               <TbMailFilled className="text-[24px] md:text-[30px]" />
-              <p>gmail@gmail.com</p>
+              <p>itzcrizystudio@gmail.com</p>
             </div>
           </div>
 
