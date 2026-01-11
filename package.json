@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Chamath-Kavinda.github.io/CRIZY-Portfolio",
+  "homepage": "https://CRIZY-OFFICIAL.github.io/CRIZY",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
