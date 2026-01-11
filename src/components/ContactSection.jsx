@@ -53,14 +53,23 @@ function ContactSection() {
           <div className="w-full md:w-[45%] p-3 flex flex-col items-center gap-10 ml-0 md:ml-[20px] pt-[40px] md:pt-[70px]" data-aos="fade-up" data-aos-delay="700">
             <p className="text-[30px] md:text-[40px] font-rubik-80s-fade">Get in Touch</p>
             <p className="text-center text-[14px] md:text-[16px] text-zinc-400 px-4 md:px-0">
-              I'd love to hear from you - whether it's about a new project or just to say hi.
+              I'd love to hear from you - whether it's about a new project, a
+              collaboration, or just to say hi. Drop me a message anytime, and
+              I'll get back to you as soon as I can.
             </p>
-            
             <div className="text-black flex gap-3 md:gap-5">
-              <a href="https://www.instagram.com/didula_prabashwara/" target="_blank" rel="noreferrer" className="p-2 md:p-3 w-[40px] md:w-[50px] h-[40px] md:h-[50px] bg-zinc-500 rounded-full flex justify-center items-center hover:scale-110 transition duration-900">
+              <a href="https://www.instagram.com/didula_prabashwara/" target="_black" className="p-2 md:p-3 w-[40px] md:w-[50px] h-[40px] md:h-[50px] bg-zinc-500 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition duration-900">
                 <FaInstagram className="text-[24px] md:text-[30px]" />
               </a>
-              {/* ... other social links ... */}
+              <a href="https://wa.me/94715973909" className="p-2 md:p-3 w-[40px] md:w-[50px] h-[40px] md:h-[50px] bg-zinc-500 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition duration-900">
+                <FaWhatsapp className="text-[24px] md:text-[30px]" />
+              </a>
+              <a href="https://www.facebook.com/dcrizy1" className="p-2 md:p-3 w-[40px] md:w-[50px] h-[40px] md:h-[50px] bg-zinc-500 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition duration-900">
+                <FaFacebookF className="text-[24px] md:text-[30px]" />
+              </a>
+              <a href="https://www.linkedin.com/in/didula-prabashwara-695a14282" className="p-2 md:p-3 w-[40px] md:w-[50px] h-[40px] md:h-[50px] bg-zinc-500 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition duration-900">
+                <FaLinkedinIn className="text-[24px] md:text-[30px]" />
+              </a>
             </div>
 
             <div className="flex items-center justify-center gap-2 text-zinc-500 text-[14px] md:text-base">
